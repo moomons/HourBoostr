@@ -263,7 +263,7 @@ namespace SingleBoostr
             if (_settings.Settings.HideToTraybar)
             {
                 Hide();
-                AppNotifyIcon.ShowBalloonTip(1000, "SingleBoostr", "I'm down here.", ToolTipIcon.Info);
+                //AppNotifyIcon.ShowBalloonTip(1000, "SingleBoostr", "I'm down here.", ToolTipIcon.Info);
             }
             else
             {
@@ -276,7 +276,7 @@ namespace SingleBoostr
             if (_settings.Settings.HideToTraybar)
             {
                 Hide();
-                AppNotifyIcon.ShowBalloonTip(1000, "SingleBoostr", "I'm down here.", ToolTipIcon.Info);
+                //AppNotifyIcon.ShowBalloonTip(1000, "SingleBoostr", "I'm down here.", ToolTipIcon.Info);
             }
             else
             {
